@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;}
+
+body{
+    display: flex;
+    flex-direction: column;
+    
+    background: #CCCCCC;
+}
+#banner{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1%;
+   
+}
+
+.principal{
+    background: #CCCCCC;
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+    flex-direction: column;
+}
+
+p {
+    text-align: center;
+}
+
+#missao{
+    font-size: 18px;
+} 
+/*
+# usado para referenciar quando marcamos com ID.
+*/
+
+em strong{
+    color: purple;
+}
+
+.beneficios{
+    background: whitesmoke;
+    padding: 20px;
+
+}
+
+h2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.ImagemBeneficios
+{
+    width: 50%;
+}
+
+.itens{
+    
+    display: flex;
+    justify-content: flex-start;
+    font-style: italic;
+    font-weight: 300;
+    margin-left: 1%;
+}
+/* .classe é usado para referenciar quando marcamos com class.
